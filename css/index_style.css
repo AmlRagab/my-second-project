@@ -1,0 +1,36 @@
+body {
+    font-family: 'Muli', sans-serif;
+}
+ .main-color {color: #f4ad2d;}
+ .bg-main {background-color: #f4ad2d;}
+/*navbar*/
+.navbar-brand {
+    font-size:1.8rem;
+    font-weight: 600;
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+    color: #f4ad2d!important
+}
+.navbar-dark .navbar-nav .nav-link{color: white;}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #f4ad2d;
+}
+.navbar{background-color: rgba(0, 0, 0, .5);
+top: 0;
+left: 0;
+padding: 1.5rem 0;}
+/*header*/
+header {background-image: url("../images/hero_1.jpg");
+    background-color: rgba(0, 0, 0,.3);
+    background-blend-mode:soft-light;
+background-position: center center;
+background-size: cover;
+height: 100vh;}
+h1{font-family: 'Hepta Slab', serif;
+font-size: 3rem;
+font-weight: 800;}
+header p {font-size: 1.1rem;}
+.btn {
+    letter-spacing: 2.5;
+    font-size: .8rem;
+}
